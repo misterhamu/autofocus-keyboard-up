@@ -47,7 +47,7 @@ export default function Home({}: Props) {
         autoFocus
         type="tel"
         id="tel"
-        className="border"
+        className="border text-black"
         ref={buttonRef}
         onClick={() => {
           console.log("click me");
